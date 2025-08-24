@@ -1,0 +1,55 @@
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background: #2d3436;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  position: relative;
+}
+
+.back-home {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+.download .buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.download button {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  background: #555;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: not-allowed;
+}
+
+footer {
+  background: #eee;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
